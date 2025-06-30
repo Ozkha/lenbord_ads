@@ -1,0 +1,1 @@
+ALTER TABLE `five_whys` ADD `why_details` varchar(1500);

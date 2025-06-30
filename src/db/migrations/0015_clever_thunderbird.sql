@@ -1,0 +1,1 @@
+ALTER TABLE `five_whys` MODIFY COLUMN `what` varchar(255) NOT NULL;

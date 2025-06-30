@@ -1,0 +1,1 @@
+ALTER TABLE `kpi_goals` DROP COLUMN `type`;

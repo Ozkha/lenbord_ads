@@ -1,0 +1,1 @@
+ALTER TABLE `tasks` MODIFY COLUMN `status` enum('todo','inprogress','completed') NOT NULL DEFAULT 'todo';

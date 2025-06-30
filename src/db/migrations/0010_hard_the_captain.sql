@@ -1,0 +1,1 @@
+ALTER TABLE `areas` ADD `name` varchar(50) NOT NULL;

@@ -1,0 +1,2 @@
+ALTER TABLE `five_whys` ADD `who_id` bigint unsigned NOT NULL;--> statement-breakpoint
+ALTER TABLE `five_whys` ADD CONSTRAINT `five_whys_who_id_whys_id_fk` FOREIGN KEY (`who_id`) REFERENCES `whys`(`id`) ON DELETE no action ON UPDATE no action;

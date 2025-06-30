@@ -1,0 +1,1 @@
+ALTER TABLE `tasks` MODIFY COLUMN `date` timestamp(2);

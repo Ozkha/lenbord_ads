@@ -1,0 +1,1 @@
+ALTER TABLE `tasks` ADD `description` varchar(5000);

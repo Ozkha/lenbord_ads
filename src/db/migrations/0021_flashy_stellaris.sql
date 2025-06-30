@@ -1,0 +1,2 @@
+ALTER TABLE `tasks` ADD `company_id` bigint unsigned NOT NULL;--> statement-breakpoint
+ALTER TABLE `tasks` ADD CONSTRAINT `tasks_company_id_companies_id_fk` FOREIGN KEY (`company_id`) REFERENCES `companies`(`id`) ON DELETE no action ON UPDATE no action;

@@ -1,0 +1,1 @@
+ALTER TABLE `tasks` ADD `problem` varchar(1000) NOT NULL;

@@ -1,0 +1,1 @@
+ALTER TABLE `tasks` RENAME COLUMN `date` TO `due_date`;
